@@ -3,6 +3,9 @@
     'use strict';
 
     function boot () {
+		h5api.initGame(100051110,"怪物连线",640, 960);
+        
+        h5api.progress(100, "游戏加载中...");
 
         var settings = window._CCSettings;
         window._CCSettings = undefined;
