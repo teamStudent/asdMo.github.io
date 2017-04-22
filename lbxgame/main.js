@@ -3,6 +3,9 @@
     'use strict';
 
     function boot () {
+		h5api.initGame(100051110,"宝石镶嵌",1136, 640);
+        
+        h5api.progress(100, "游戏加载中...");
 
         var settings = window._CCSettings;
         window._CCSettings = undefined;
@@ -116,7 +119,7 @@
 
         // anysdk scripts
         if (cc.sys.isNative && cc.sys.isMobile) {
-            //jsList = jsList.concat(['jsb_anysdk.js', 'jsb_anysdk_constants.js']);
+            jsList = jsList.concat(['jsb_anysdk.js', 'jsb_anysdk_constants.js']);
         }
 
         jsList = jsList.map(function (x) { return 'src/' + x; });
