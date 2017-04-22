@@ -1,1 +1,0 @@
-[{"__type__":"cc.BitmapFont","_name":"font","_rawFiles":["raw-bitmap-font.fnt","font_0.png"],"texture":{"__uuid__":"695d9a04-4003-4d51-8b5a-3dcf737744ec"},"fontSize":32},{"__type__":"cc.SpriteFrame","content":{"name":"UI_zhujiemian","texture":"fcde3b05-ffd7-4a74-a3fa-43cfa61c1d36","rect":[0,0,640,960],"offset":[0,0],"originalSize":[640,960]}}]
