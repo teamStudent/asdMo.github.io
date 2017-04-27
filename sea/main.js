@@ -3,8 +3,8 @@
     'use strict';
 
     function boot () {
-		h5api.initGame(100051254,"深海迷情",1136, 640);
-        h5api.progress(0, "游戏加载中...");
+		// h5api.initGame(100051254,"深海迷情",1136, 640);
+        // h5api.progress(0, "游戏加载中...");
 		
         var settings = window._CCSettings;
         window._CCSettings = undefined;
@@ -39,7 +39,7 @@
             cc.loader.onProgress = function (completedCount, totalCount, item) {
                 var percent = 100 * completedCount / totalCount;
                 if (progressBar) {
-					if(percent > 80)h5api.progress(20, "游戏加载中...");
+					// if(percent > 80)h5api.progress(20, "游戏加载中...");
                     progressBar.style.width = percent.toFixed(2) + '%';
                 }
             };
